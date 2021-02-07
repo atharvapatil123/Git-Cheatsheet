@@ -1,4 +1,12 @@
-qef
-qdew
-qdx
-my first git file
+git status//To show status of current repository
+git init//To initialize a git repository , to make that folder as .git, make an empty git repository
+git add --a//When files are untracked, then it is used to track the files
+git add --a//Add all files to staging area
+git add new.txt new_word.docsx//Add only specific file to staging area
+git commit -m "some commit message"//Commit files in staging area with commit message
+git log//Check all past commits info
+rm -rf .git//Delete .git repositiory
+git clone url new-name//Cloning a Remote Git Repository from GitHub 
+
+The files which git tracks is a repository
+
