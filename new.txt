@@ -4,9 +4,10 @@ git add --a//When files are untracked, then it is used to track the files
 git add --a//Add all files to staging area
 git restore --staged name_of_file//To unstage staged file
 git checkout -- file_name//to unmodify the file, or restore the contents of the file as that of the previous commit
-git checkout -f//to unmodify the file, or restore the contents of ALL file as that of the previous commit
+git checkout -f//to unmodify the file, or restore the contents of ALL file as that of the previous commit or use GIT RESTORE FILE_NAME
 git add new.txt new_word.docx//Add only specific file to staging area
 git commit -m "some commit message"//Commit files in staging area with commit message
+git rm --cached//Stops tracking a file and so ignore it
 git log//Check all past commits info
 git log -p// Gives log alongwith the changes or diff in detail
 git log -p -2//Limits the commits to 2
@@ -27,3 +28,7 @@ git diff//Compares working directory and staging area.
 git diff --staged//Compares last commit(or working tree content) with staging area. .
 checksumm.
 git commit -a -m "message"//Add tracked files directly from modified working tree to commit, without staging area
+
+git config --global alias.name name_of_command//For alias names
+
+git checkout -b branch_name// To create another branch and go into it
