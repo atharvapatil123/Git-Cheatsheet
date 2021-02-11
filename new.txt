@@ -11,4 +11,6 @@ git clone url new-name//Cloning a Remote Git Repository from GitHub
 The files which git tracks is a repository
 
 git diff//Compares working directory and staging area.
-git diff --staged//Compares last commit(or working tree content) with staging area./
+git diff --staged//Compares last commit(or working tree content) with staging area. .
+checksumm.
+git commit -a -m "message"//Add tracked files directly from modified working tree to commit, without staging area
