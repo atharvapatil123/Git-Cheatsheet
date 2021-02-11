@@ -34,3 +34,4 @@ git config --global alias.name name_of_command//For alias names
 git checkout -b branch_name// To create another branch and go into it
 git checkout branch_name///To switch to other branch
 git merge other_branch_name//Might give merge coflict, then commit to merge
+git merge --abort//To abort the merge
