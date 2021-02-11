@@ -32,3 +32,4 @@ git commit -a -m "message"//Add tracked files directly from modified working tre
 git config --global alias.name name_of_command//For alias names
 
 git checkout -b branch_name// To create another branch and go into it
+git checkout branch_name///To switch to other branch
