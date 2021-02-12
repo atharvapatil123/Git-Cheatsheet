@@ -35,3 +35,9 @@ git checkout -b branch_name// To create another branch and go into it
 git checkout branch_name///To switch to other branch
 git merge other_branch_name//Might give merge coflict, then commit to merge
 git merge --abort//To abort the merge
+conflict resolution markers >>>>>>>>
+git branch -v //Gives the branch_names with their last commit
+git branch --merged//Gives already merged branches
+git branch --no -merged//No merged branches
+git branch -d  branch_name//deletes the branch, but if the branch e=was not merged, then gives error
+git branch -D branch_name//deletes without error
